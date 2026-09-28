@@ -14,11 +14,11 @@ import seaborn as sns
 st.title("📊 Gurugram Real Estate Analysis")
 
 df = pd.read_csv(
-    "analytics/gurugram_properties_missing_value_imputation.csv"
+    "data/gurugram_properties_missing_value_imputation.csv"
 )
 
 gdf = gpd.read_file(
-    "analytics/gurugram_sectors.geojson"
+    "data/gurugram_sectors.geojson"
 )
 
 sector_avg = (
@@ -129,7 +129,7 @@ st_folium(
 
 st.header('Features wordcloud')
 
-with open("analytics/feature_text.pkl", "rb") as file:
+with open("models/feature_text.pkl", "rb") as file:
     feature_text = pickle.load(file)
 
 plt.rcParams["font.family"] = "Arial"
@@ -146,7 +146,7 @@ plt.tight_layout(pad = 0)
 st.pyplot(fig)
 
 st.header('Sample Suburst Chart')
-df1 = pd.read_csv('analytics/gurugram_properties_missing_value_imputation.csv')
+df1 = pd.read_csv('data/gurugram_properties_missing_value_imputation.csv')
 fig = px.sunburst(
     df1,
     path=['property_type', 'bedRoom'],

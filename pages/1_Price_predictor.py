@@ -7,10 +7,10 @@ st.set_page_config(page_title="Viz Demo")
 
 # property_type	sector	built_up_area	bedRoom	bathroom	balcony	agePossession	Servant Room	furnishing_type	luxury_category	floor_category
 
-with open("df.pkl", "rb") as file:
+with open("models/df.pkl", "rb") as file:
     df = pickle.load(file)
 
-with open("pipeline.pkl", "rb") as file:
+with open("models/pipeline.pkl", "rb") as file:
     pipeline = pickle.load(file)
 
 st.dataframe(df)
