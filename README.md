@@ -86,7 +86,6 @@ The application provides separate pages for:
 ---
 
 # 🧠 Project Workflow
-
 ```text
                  Raw Real Estate Data
                          │
@@ -127,6 +126,7 @@ The application provides separate pages for:
              ▼           ▼           ▼
        Price Prediction  Analysis  Recommendation
 
+```
 ---
 
 # 🛠️ Technologies Used
@@ -165,7 +165,7 @@ The application provides separate pages for:
 
 # 📁 Project Structure
 
-```text
+
 gurugram-real-estate/
 │
 ├── README.md
@@ -191,8 +191,9 @@ gurugram-real-estate/
     ├── 1_Price_predictor.py
     ├── 2_Analysis_App.py
     └── 3_Recommend_Apartments.py
+---
 
-🎯 Project Objective
+# 🎯 Project Objective
 
 The objective of this project is to develop a practical real estate intelligence platform for Gurugram.
 
@@ -206,7 +207,7 @@ The system helps users:
 - Discover suitable apartments
 
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 - Real-time real estate data collection
 - Automated web scraping
 - Advanced machine learning models
@@ -218,7 +219,7 @@ The system helps users:
 - Cloud deployment
 - Database integration
 
-⭐ Project Highlights
+# ⭐ Project Highlights
 
 This project demonstrates practical experience in:
 
@@ -231,6 +232,6 @@ This project demonstrates practical experience in:
 - Streamlit Development
 - Git & GitHub
 
-📜 License
+# 📜 License
 
 This project is developed for educational and portfolio purposes.
