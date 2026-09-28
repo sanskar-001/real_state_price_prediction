@@ -165,7 +165,7 @@ The application provides separate pages for:
 
 # 📁 Project Structure
 
-
+```text
 gurugram-real-estate/
 │
 ├── README.md
@@ -191,6 +191,7 @@ gurugram-real-estate/
     ├── 1_Price_predictor.py
     ├── 2_Analysis_App.py
     └── 3_Recommend_Apartments.py
+```
 ---
 
 # 🎯 Project Objective
